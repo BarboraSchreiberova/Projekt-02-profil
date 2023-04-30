@@ -19,3 +19,146 @@ body {
   background-color: #bdc3c7;
 }
 
+.profil {
+  max-width: 280px;
+  margin: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 8px #31363b;
+  height: 631px;
+}
+
+.foto {
+  max-height: auto;
+  max-width: 280px;
+  position: relative;
+  display: block;
+}
+
+.logo {
+  background-color: #b92e81;
+  width: 55px;
+  height: auto;
+  border-radius: 50%;
+  position: absolute;
+  top: 180px;
+  left: 220px;
+  z-index: 1;
+  box-shadow: 0px 3px 5px black;
+}
+
+
+H1 {
+  font-family: 'Montserrat', monospace;
+  font-size: 25px;
+  color: white;
+  margin-top: 10px;
+}
+
+.obsah {
+  font-family: 'Source Sans Pro', monospace;
+  background-color: #31363b;
+  padding: 20px;
+  max-width: 280px;
+}
+
+p {
+  color:#bdc3c7;
+}
+
+a {
+  color: #bdc3c7;
+  text-decoration: none;
+}
+
+.odkazy {
+  font-family: 'Montserrat', monospace;
+  text-decoration: none;
+  position: relative;
+  max-width: 280px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+
+.odkazy li {
+  list-style: none;
+}
+
+.portfolio {
+  display: inline-block;
+  position:absolute;
+  top:0;
+  left:0;
+  background-color: #31363b;
+  width: 280px;
+  height: auto;
+  padding: 15px;
+  font-weight: bold;
+  border-top: 1px solid #3f464d;
+}
+
+.facebook {
+  display: inline-block;
+  position:absolute;
+  top: 45px;
+  left:0;
+  background-color: #31363b;
+  width: 140px;
+  height: auto;
+  padding: 15px;
+  font-weight: bold;
+  border-top: 1px solid #3f464d;
+}
+
+.twitter {
+  display: inline-block;
+  position:absolute;
+  top: 45px;
+  left: 140px;
+  background-color: #31363b;
+  width: 140px;
+  height: auto;
+  padding: 15px;
+  font-weight: bold;
+  border-top: 1px solid #3f464d;
+  border-left: 1px solid #3f464d;
+}
+
+.portfolio a:hover {
+  background-color: #e74c3c;
+  color: white;
+  display: inline-block;
+  position:absolute;
+  top:0;
+  left:0;
+  width: 280px;
+  height: auto;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.facebook a:hover {
+  background-color: #3b5998;
+  color: white;
+  display: inline-block;
+  position:absolute;
+  top: 0px;
+  left:0px;
+  width: 140px;
+  height: auto;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.twitter a:hover {
+  background-color: #1da1f2;
+  color: white;
+  display: inline-block;
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  width: 140px;
+  height: auto;
+  padding: 15px;
+  font-weight: bold;
+  border: none;
+}
